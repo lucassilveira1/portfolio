@@ -36,5 +36,3 @@ function sendMail(e) {
         alert("Preencha todos os campos");
     }
 }
-
-// Senha: 6F17BD0A8FEA772B1AC3E770CD67AABB9F24
