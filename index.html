@@ -9,6 +9,7 @@
             href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
             rel="stylesheet"
         />
+        <link rel="icon" href="./assets/code-solid.svg" type="image/x-icon" />
     </head>
     <body>
         <header class="header">
@@ -34,27 +35,34 @@
                 <h1>Olá, sou <span>Lucas</span></h1>
                 <h3>Sou um <span>Desenvolvedor Front-End</span></h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Veniam at incidunt nobis quaerat sunt, vitae itaque autem
-                    in? Maiores ipsam atque excepturi rerum voluptates
-                    perspiciatis aspernatur dignissimos, nisi eaque architecto!
+                    Sou Graduando em Análise e Desenvolvimento de Sistemas pela
+                    UNISUAM, onde desenvolvi minha base em desenvolvimento de
+                    software. Possuo 1 ano de experiência, onde trabalhei com
+                    tecnologias como <span>Javascript, React e CSS</span>,
+                    focando sempre em criar interfaces intuitivas e eficientes.
                 </p>
                 <div class="social-icons">
-                    <a href="#">
+                    <a href="https://github.com/lucassilveira1" target="_blank">
                         <i class="bx bxl-github"></i>
                     </a>
-                    <a href="#">
+                    <a
+                        href="https://www.instagram.com/lucass.alves1/"
+                        target="_blank"
+                    >
                         <i class="bx bxl-instagram-alt"></i>
                     </a>
-                    <a href="#">
+                    <a
+                        href="https://www.linkedin.com/in/lucassilveira2/"
+                        target="_blank"
+                    >
                         <i class="bx bxl-linkedin-square"></i>
                     </a>
                 </div>
 
                 <div class="btn-group">
                     <a href="Curriculo Lucas Silveira.pdf" class="btn"
-                        >Currículo</a
-                    >
+                        >Currículo <i class="bx bxs-download"></i
+                    ></a>
                     <a href="#contact" class="btn">Contato</a>
                 </div>
             </div>
@@ -72,13 +80,24 @@
             <div class="about-content">
                 <h2>Sobre <span>mim</span></h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Adipisci aspernatur minima odit esse, necessitatibus
-                    expedita ut, voluptatibus eum repellendus praesentium porro
-                    fuga, non corporis eligendi. Iste commodi eius recusandae
-                    tempore.
+                    Desenvolvo aplicações <span>web</span> com foco em
+                    <span>Front-End</span>. Atualmente, estou me especializando
+                    em ReactJS e estudando Typescript. Ao longo dessa minha
+                    curta jornada, me dediquei a aprimorar minhas habilidades e
+                    explorar novas tecnologias. Sou motivado pela oportunidade
+                    de resolver problemas complexos com código e gosto de
+                    transformar ideias em produtos digitais. Estou sempre em
+                    busca de novas oportunidades e desafios para crescer como
+                    desenvolvedro e contribuir para a criação de soluções
+                    inovadoras.
                 </p>
-                <a href="#" class="btn">Ler mais</a>
+                <!-- <a href="#" class="btn">Ler mais</a> -->
+                <div class="about-icons">
+                    <i class="bx bxl-html5"></i>
+                    <i class="bx bxl-css3"></i>
+                    <i class="bx bxl-javascript"></i>
+                    <i class="bx bxl-react"></i>
+                </div>
             </div>
         </section>
 
@@ -91,25 +110,25 @@
                         <i class="bx bxl-figma"></i>
                         <h4>UI / UX Design</h4>
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit. Architecto voluptate inventore quis beatae
-                            tempore, reiciendis cumque odio officiis magni
-                            numquam, quo dolorum corrupti perspiciatis quaerat
-                            ab tenetur vero perferendis veniam!
+                            Aprendendo a criar interfaces intuitivas e
+                            funcionais com Figma, focando em designs que
+                            proporcionam uma experiência agradável ao usuário,
+                            alinhando estética e usabilidade.
                         </p>
                     </div>
                 </div>
 
                 <div class="service-box">
-                    <div class="service-info">
+                    <div class="service-info" id="service-info">
                         <i class="bx bx-code"></i>
                         <h4>Desenvolvimento Front-End</h4>
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit. Architecto voluptate inventore quis beatae
-                            tempore, reiciendis cumque odio officiis magni
-                            numquam, quo dolorum corrupti perspiciatis quaerat
-                            ab tenetur vero perferendis veniam!
+                            Especializado em desenvolvimento web utilizando
+                            React JS para criar interfaces dinâmicas e
+                            responsivas. Com foco em performance, escalabilidade
+                            e experiência do usuário, entrego soluções
+                            eficientes usando tecnologias modernas como
+                            JavaScript, HTML5, CSS3 e APIs RESTful.
                         </p>
                     </div>
                 </div>
@@ -119,11 +138,10 @@
                         <i class="bx bx-code-curly"></i>
                         <h4>Desenvolvimento Back-End</h4>
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit. Architecto voluptate inventore quis beatae
-                            tempore, reiciendis cumque odio officiis magni
-                            numquam, quo dolorum corrupti perspiciatis quaerat
-                            ab tenetur vero perferendis veniam!
+                            Aprimorando habilidades em desenvolvimento Back-End
+                            com Node.js, focado na criação de APIs robustas e
+                            escaláveis, integrando bancos de dados e garantindo
+                            a segurança e eficiência das aplicações.
                         </p>
                     </div>
                 </div>
@@ -135,45 +153,51 @@
 
             <div class="projects-box">
                 <div class="project-card">
-                    <img src="image1.png" alt="" />
+                    <img src="./assets/projects-print/miniblog.png" alt="" />
 
-                    <h3>Projeto 1</h3>
+                    <h3>Miniblog</h3>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Nisi suscipit et explicabo eum optio debitis
-                        officiis eaque quasi voluptatibus perspiciatis, minus
-                        doloremque saepe, a facilis expedita accusantium,
-                        laudantium quibusdam similique!
+                        Projeto fullstack feito em React integrado com Firebase
+                        para autenticação de usuários e publicação de posts.
                     </p>
-                    <div class="btn">Review Project</div>
+                    <div class="btn">
+                        <a
+                            href="https://miniblog-zeta-lilac.vercel.app/"
+                            target="_blank"
+                            >Deploy</a
+                        >
+                    </div>
                 </div>
 
                 <div class="project-card">
-                    <img src="image1.png" alt="" />
+                    <img src="./assets/projects-print/movieslib.png" alt="" />
 
-                    <h3>Projeto 2</h3>
+                    <h3>MoviesLib</h3>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Nisi suscipit et explicabo eum optio debitis
-                        officiis eaque quasi voluptatibus perspiciatis, minus
-                        doloremque saepe, a facilis expedita accusantium,
-                        laudantium quibusdam similique!
+                        Projeto feito em React consumindo a API The Movie
+                        Database (TMDB).
                     </p>
-                    <div class="btn">Review Project</div>
+                    <div class="btn">
+                        <a
+                            href="https://movies-lib-bice-rho.vercel.app/"
+                            target="_blank"
+                            >Deploy</a
+                        >
+                    </div>
                 </div>
 
                 <div class="project-card">
-                    <img src="image1.png" alt="" />
+                    <img src="./assets/projects-print/secretword.png" alt="" />
 
-                    <h3>Projeto 3</h3>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Nisi suscipit et explicabo eum optio debitis
-                        officiis eaque quasi voluptatibus perspiciatis, minus
-                        doloremque saepe, a facilis expedita accusantium,
-                        laudantium quibusdam similique!
-                    </p>
-                    <div class="btn">Review Project</div>
+                    <h3>Adivinhe a Palavra</h3>
+                    <p>Um minigame de adivinhar a palavra feito em React.</p>
+                    <div class="btn">
+                        <a
+                            href="https://lucas-secret-word.netlify.app/"
+                            target="_blank"
+                            >Deploy</a
+                        >
+                    </div>
                 </div>
 
                 <div class="project-card">
@@ -187,7 +211,7 @@
                         doloremque saepe, a facilis expedita accusantium,
                         laudantium quibusdam similique!
                     </p>
-                    <div class="btn">Review Project</div>
+                    <div class="btn">Deploy</div>
                 </div>
 
                 <div class="project-card">
@@ -201,7 +225,7 @@
                         doloremque saepe, a facilis expedita accusantium,
                         laudantium quibusdam similique!
                     </p>
-                    <div class="btn">Review Project</div>
+                    <div class="btn">Deploy</div>
                 </div>
 
                 <div class="project-card">
@@ -215,7 +239,7 @@
                         doloremque saepe, a facilis expedita accusantium,
                         laudantium quibusdam similique!
                     </p>
-                    <div class="btn">Review Project</div>
+                    <div class="btn">Deploy</div>
                 </div>
             </div>
         </section>
