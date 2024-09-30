@@ -160,6 +160,15 @@ section {
     transition: 0.3s ease-in-out;
     cursor: pointer;
 }
+
+#react {
+    align-items: center;
+}
+
+.btn a {
+    color: var(--bg-color);
+}
+
 .btn:hover {
     transform: scale(1.05);
     box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color);
@@ -203,6 +212,20 @@ section {
 }
 .about-content .btn {
     margin: 3rem 0;
+}
+.about-icons {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
+.about-icons i {
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-icons i:hover {
+    transform: scale(1.2) translateY(-5px);
 }
 /* END ABOUT SECTION */
 /* START SERVICES SECTION */
@@ -474,8 +497,30 @@ section {
         width: 60vw;
     }
 
+    .about-icons {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .about-icons i {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .about-icons i:hover {
+        transform: scale(1.2) translateY(-5px);
+    }
+
+    .services-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .service-info p {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
     .service-info h4 {
-        font-size: 3rem;
+        font-size: 2.5rem;
         margin: 2rem 0;
         font-weight: 800;
         text-align: center;
