@@ -459,6 +459,10 @@ section {
     }
 }
 @media (max-width: 850px) {
+    .btn-group .cv {
+        padding: 1rem;
+    }
+
     .home {
         display: flex;
         align-items: center;
