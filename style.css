@@ -184,6 +184,13 @@ section {
     background-color: var(--main-color);
     color: black;
 }
+
+.cv {
+    display: flex;
+    gap: 1rem;
+    padding: 1.2rem;
+    align-items: center;
+}
 /* END HOME SECTION */
 /* START ABOUT SECTION */
 .about {
@@ -208,6 +215,7 @@ section {
     text-align: left;
 }
 .about-content p {
+    text-align: left;
     font-size: 1.8rem;
 }
 .about-content .btn {
@@ -454,6 +462,31 @@ section {
     .about img {
         width: 40vw;
     }
+
+    .services-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .service-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem;
+    }
+
+    .projects-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+
+    .project-card {
+        width: 400px;
+        height: 400px;
+    }
+
     .contact form {
         flex-direction: column;
     }
@@ -476,7 +509,7 @@ section {
         text-align: left;
     }
     .home-content h1 {
-        font-size: 4rem;
+        font-size: 3.5rem;
         font-weight: 700;
         margin-top: 1.5rem;
         line-height: 1;
@@ -533,11 +566,10 @@ section {
         font-size: 6rem;
     }
 
-    .projects {
-        background-color: var(--second-bg-color);
-    }
     .projects-box {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        display: grid;
+        grid-template-columns: auto;
+        width: 300px;
     }
 
     .contact h2 {
@@ -558,6 +590,22 @@ section {
     }
 }
 
+@media (max-width: 748px) {
+    .btn-group .cv {
+        padding: 1rem 0.7rem;
+    }
+
+    .projects {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 350px;
+    }
+}
 ::-webkit-scrollbar {
     width: 15px;
 }
